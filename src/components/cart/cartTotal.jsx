@@ -29,11 +29,11 @@ const CartTotal = ({ value, history }) => {
                             <span className="text-title m-2"> total: </span>
                             <strong> Rs {cartTotal} </strong>
                         </h5>
-                        <PayPalButton
+                        {/* <PayPalButton
                             total={cartTotal}
                             clearCart={clearCart}
                             history={history}
-                        />
+                        /> */}
                     </div>
                 </div>
             </div>

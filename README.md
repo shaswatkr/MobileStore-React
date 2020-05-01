@@ -1,3 +1,19 @@
+The app is built using React and styled using Bootstrap along with it's icons!
+
+The project contains all the functionality:
+
+-   A dashboard filled with all the items present in the store, we're currently getting static data, but we can get it via API,
+-   Opening a modal when add to cart is clicked & also adding it into your cart,
+-   Open the description of the product when clicked in image,
+-   A cart page to check items you've added,
+-   Increment, Decrement number of items in the cart,
+-   Remove an item from cart,
+-   Delete content of the entire cart,
+-   Checkout and pay using PayPal Sandbox (currently disabled because it's not supporting in mobile) using `npm install --save react-paypal-express-checkout`,
+-   And finally depolying it into server using [Netlify](https://www.netlify.com/).
+
+> The project is hosted in site [Mobile Store(https://shaswatkr-mobilestore.netlify.app)](https://shaswatkr-mobilestore.netlify.app).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
